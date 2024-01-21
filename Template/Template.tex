@@ -1,0 +1,114 @@
+\documentclass[hidelinks,12pt,a4paper]{article}
+\usepackage[italian]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{fourier} 
+
+% To avoid GitHub Action error
+\usepackage{hyperref}
+
+% Images
+\usepackage{graphicx}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{float}
+\graphicspath{ {../Images} }
+
+% Background page image.
+\usepackage{eso-pic}
+%\usepackage[top=2cm, bottom=2cm, outer=0cm, inner=0cm]{geometry}
+\usepackage[top=1cm, bottom=1cm, outer=0cm, inner=0cm]{geometry}
+
+% To color text parts
+\usepackage{xcolor}
+
+% Minipages in the same line
+\usepackage{tabularx}
+
+% Create page border 
+\usepackage{tikz}
+\usepackage[framemethod=TikZ]{mdframed}
+\newmdenv[tikzsetting={draw=black, line width=6pt}, backgroundcolor=none]{roundCornerPage}
+
+% Create dashed box
+\usepackage{adjustbox}
+\usepackage{dashbox}
+
+% Adjust margins
+\usepackage{changepage}
+
+% License
+\usepackage[
+type={CC},
+modifier={by-nc-sa},
+version={4.0},
+]{doclicense}
+
+%---------------------------------------------------------------------
+
+% Table entry
+\newcommand{\entry}[3]{
+	{\textbf{\huge{#1}}}&{\textbf{\huge{#2}}}&{\textbf{\huge{#3}}}\\
+}
+
+% Structure
+\newcommand{\hourSign}{
+	\begin{center}
+		\fboxrule=2pt
+		\begin{adjustbox}{minipage=0.9\textwidth,precode=\dbox}
+			\begin{roundCornerPage}[roundcorner=15pt]
+				\begin{minipage}[t][0.7\textwidth][t]{\textwidth}
+					\vspace*{5mm}
+					\begin{center}
+						{\fontsize{30pt}{36pt}\selectfont \textbf{\underline{Orari di apertura}}} 
+						 
+					\end{center}
+					
+						\vspace*{1.5cm}
+						%\hspace*{2.5cm}
+						\begin{tabular*}{\linewidth}{ c c c }
+							\entry{Lunedì - Martedì}{}{Chiuso}
+							\entry{Mercoledì}{10.00 - 12.30}{16.30 - 19.00}
+							\entry{Giovedì}{10.00 - 12.30}{16.30 - 19.00}
+							\entry{Venerdì}{10.00 - 12.30}{16.30 - 19.00}
+							\entry{Sabato}{10.00 - 12.30}{16.30 - 19.00}
+							\entry{Domenica}{10.00 - 12.30}{16.30 - 19.00}
+						\end{tabular*}
+				\vspace*{2cm}
+				\begin{center}
+					{\Large
+						\textbf{Per appuntamento: tel. } 
+					}
+				\end{center}
+				
+				\end{minipage}
+			\end{roundCornerPage}
+		\end{adjustbox}
+	\end{center}
+}
+
+\begin{document}
+	% Remove page number
+	\pagestyle{empty}
+	
+	\title{\textbf{Template di un Cartello Orario di Apertura}}
+	\author{Francesco Rombaldoni}
+	\date{}
+	
+	\maketitle
+	\newpage
+	
+	\hourSign
+%	\vspace*{5mm}
+%	\hourSign
+	
+	\newpage
+%	\newgeometry{top=2cm, bottom=2cm}
+	\vspace*{\fill}
+	% Print license
+	\begin{center}
+		\begin{minipage}{0.8\linewidth}
+			\doclicenseThis
+		\end{minipage}
+	\end{center}
+	
+\end{document}
