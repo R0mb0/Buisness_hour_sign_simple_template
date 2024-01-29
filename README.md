@@ -8,7 +8,7 @@
 
 ---
 ## How to personalize this template online for free 
-1.  Fork this repository.
+1.  Fork this repository by pressing the second button at the top right.
 2.  Rename the repository as you want and change the description then Fork it!
 3.  ⚠️ You have to activate "Actions" on your repo; go to "Actions", click on "I understand my workflows, go ahead and enable them" ⚠️
 5.  Access the LaTeX document into "Template".
