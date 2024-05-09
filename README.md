@@ -22,7 +22,8 @@
     3. Change whatever you want using comments as guide.
     4. Now "Commit changes"!
 5. Wait 2 minutes, got to "Actions" -> "Compile" -> click on the last one
- (look at the date on right) -> scroll down the page and click on "artifact file".  
+ (look at the date on right) -> scroll down the page and click on
+ "artifact file".  
 6. Done! now you have your document.
 
 ---
