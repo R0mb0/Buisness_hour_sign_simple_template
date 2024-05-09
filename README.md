@@ -10,18 +10,19 @@
 
 ---
 
-## How to personalize this template online for free 
+## How to personalize this template online for free
 
 1. Fork this repository by pressing the second button at the top right.
 2. Rename the repository as you want and change the description then Fork it!
-3. ⚠️ You have to activate "Actions" on your repo; go to "Actions", click on "I understand my workflows, go ahead and enable them" ⚠️
-5. Access the LaTeX document into "Template".
+3. ⚠️ You have to activate "Actions" on your repo; go to "Actions", click on
+ "I understand my workflows, go ahead and enable them" ⚠️
+4. Access the LaTeX document into "Template".
     1. Once in the folder click on "Template.tex".
     2. Now click on "Edit this file" (the pencil on top right).
     3. Change whatever you want using comments as guide.
     4. Now "Commit changes"!
-6. Wait 2 minutes, got to "Actions" -> "Compile" -> click on the last one (look at the date on right) -> scroll down the page and click on "artifact file".  
-7. Done! now you have your document.
+5. Wait 2 minutes, got to "Actions" -> "Compile" -> click on the last one (look at the date on right) -> scroll down the page and click on "artifact file".  
+6. Done! now you have your document.
 
 ---
 
