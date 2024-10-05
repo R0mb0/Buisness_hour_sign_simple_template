@@ -4,6 +4,10 @@
 [![Compilation_Test](https://github.com/R0mb0/Buisness_hour_sign_simple_template/actions/workflows/Compilation_Test.yml/badge.svg)](https://github.com/R0mb0/Buisness_hour_sign_simple_template/actions/workflows/Compilation_Test.yml)
 [![Codacy Badge](https://app.codacy.com/project/badge/Grade/f02c77a5cfd74e85838aa41c72ae346a)](https://app.codacy.com/gh/R0mb0/Buisness_hour_sign_simple_template/dashboard?utm_source=gh&utm_medium=referral&utm_content=&utm_campaign=Badge_grade)
 
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/R0mb0/Buisness_hour_sign_simple_template)
+[![Open Source Love svg3](https://badges.frapsoft.com/os/v3/open-source.svg?v=103)](https://github.com/R0mb0/Buisness_hour_sign_simple_template)
+[![Donate](https://img.shields.io/badge/PayPal-Donate%20to%20Author-blue.svg)](http://paypal.me/R0mb0)
+
 ## Demo image:
 
 - ![Demo](https://github.com/R0mb0/Buisness_hour_sign_simple_template/blob/main/ReadMe_Image/Demo.png)
